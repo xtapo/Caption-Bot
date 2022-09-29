@@ -30,7 +30,7 @@ async def editing(bot, message):
             # fname = media.file_name
             # filename = fname.replace("_", ".")
             # file_caption = f"`{filename}`"  
-              
+      await asyncio.sleep(1)        
       try:
           if caption_position == "top":
              await bot.edit_message_caption(
